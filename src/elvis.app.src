@@ -3,16 +3,14 @@
   [
    {description, "Erlang Style Reviewer, inspired on HoundCI"},
    {vsn, "0.2.6-alpha1"},
-   {applications, [kernel, stdlib, ibrowse, ssl, jiffy, lager, aleppo, zipper]},
+   {applications, [kernel, stdlib, lager, aleppo, zipper]},
    {modules,
     [
      elvis,
      elvis_config,
-     elvis_git,
      elvis_result,
      elvis_utils,
-     elvis_style,
-     elvis_webhook
+     elvis_style
     ]
    },
    {registered, []}
